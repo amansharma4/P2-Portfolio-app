@@ -1,5 +1,7 @@
 import React from "react";
-import info from "../data";
+import { info } from "../data";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import pic from "../img/pic.jpeg";
 
 function Header() {
@@ -17,6 +19,7 @@ function Header() {
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
             alt="js"
           />
+          <FontAwesomeIcon icon={["fab", "github"]} />
 
           <img class="imgc" src="https://reactjs.org/logo-og.png" alt="react" />
 
