@@ -13,6 +13,22 @@
   }
 }
 
+.linksalign {
+  margin-right: 20px;
+  margin-left: auto;
+}
+.link {
+  margin: 15px;
+}
+.image {
+  border-radius: 100%;
+  height: 150px;
+  border: solid 2px #ffffff;
+}
+.imgc {
+  height: 50px;
+  margin: 20px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
