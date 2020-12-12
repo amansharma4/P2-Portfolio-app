@@ -40,12 +40,14 @@ export const allProjects = [
     imageUrl: "img/project2.png",
     title: "Insta-Clone",
     link: "https://instaclone4.herokuapp.com/",
-    description: "A single page Instagram application where I have created functionality of sign-in and signup add the post, delete the post,   upload an image(will be uploaded in cloudinary).",
+    description:
+      "A single page Instagram application where I have created functionality of sign-in and signup add the post, delete the post,   upload an image(will be uploaded in cloudinary).",
   },
   {
     imageUrl: "img/project4.png",
     title: "Food Recipe App",
     link: "https://receipe-food.herokuapp.com/",
-    description: "Food Recipe application allows user to search an item. It will fetch the data from edamam it will tell about all the recipe  made from the item(ex-Apple)",
+    description:
+      "Food Recipe application allows user to search an item. It will fetch the data from edamam it will tell about all the recipe  made from the item(ex-Apple)",
   },
 ];

@@ -2,11 +2,7 @@
   text-align: center;
 }
 body {
-  background-color: #ddc4f5;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: #ffe6e6;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -17,74 +13,57 @@ body {
 h4 {
   margin: 4px;
 }
-
+.linkhead {
+  text-decoration: none;
+}
 .linksalign {
   color: white;
-  font-family: 'Exo 2',sans-serif ;
   padding-right: 22px;
 }
 .link {
+  color: #ffe6e6;
   margin: 15px;
+  text-decoration: none;
 }
-
 .image {
   border-radius: 100%;
-  height: 150px;
-  border: solid 2px #ffffff;
+  height: 160px;
+  border: solid 2px #000000;
 }
 .imgc {
   height: 50px;
   margin: 20px;
 }
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.navbar{
+.navbar {
   position: fixed;
   width: 100%;
-  top: 0;
-  left: 0;
-  background-color: #8a2be2;
-  color: white;
-  font-family: 'Exo 2',sans-serif ;
-  padding: 1em;
+  background-color: #a685e2;
+  padding: 0.85em;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  z-index: 1;
 }
 
-.container{
+.container {
   margin-top: 70px;
 }
-.card{
+.card {
   display: flex;
   justify-content: center;
   margin: 15px;
 }
 
-.text{
-  margin: 10px 120px;
+.text {
+  margin: 15px 100px;
   text-align: justify;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.box {
+  color: #6155a6;
+  padding: 2px;
 }

@@ -26,7 +26,6 @@ const BlogDetails = ({ post }) => {
               image={post.imageUrl}
               title="Contemplative Reptile"
             />
-
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
                 {post.title}

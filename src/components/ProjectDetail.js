@@ -17,26 +17,28 @@ const useStyles = makeStyles({
 const ProjectDetails = ({ post }) => {
   const classes = useStyles();
   return (
-    <div className="card">
-      <a href={post.link}>
-        <Card className={classes.root}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
-              image={post.imageUrl}
-              title="Contemplative Reptile"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="h2">
-                {post.title}
-              </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
-                {post.description}
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-        </Card>
-      </a>
+    <div className="about">
+      <div className="card">
+        <a href={post.link}>
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardMedia
+                className={classes.media}
+                image={post.imageUrl}
+                title="Contemplative Reptile"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  {post.title}
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  {post.description}
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </a>
+      </div>
     </div>
   );
 };

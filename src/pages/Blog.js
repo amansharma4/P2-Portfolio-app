@@ -5,13 +5,10 @@ function Blog() {
   return (
     <div>
       <h2>Latest Blogs</h2>
-      <div className="blog">
-        {allBlogs.map((post) => {
-          return <BlogDetails post={post} />;
-        })}
-      </div>
+      {allBlogs.map((post) => {
+        return <BlogDetails post={post} />;
+      })}
     </div>
   );
 }
-
 export default Blog;

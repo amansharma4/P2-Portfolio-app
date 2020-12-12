@@ -5,11 +5,9 @@ function Project() {
   return (
     <div>
       <h2>Project Details</h2>
-      <div className="project">
-        {allProjects.map((post) => {
-          return <ProjectDetails post={post} />;
-        })}
-      </div>
+      {allProjects.map((post) => {
+        return <ProjectDetails post={post} />;
+      })}
     </div>
   );
 }
