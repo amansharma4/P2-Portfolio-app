@@ -5,6 +5,7 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
+
 const useStyles = makeStyles({
   root: {
     maxWidth: 350,
@@ -14,7 +15,8 @@ const useStyles = makeStyles({
     height: 300,
   },
 });
-const BlogDetails = ({ post }) => {
+
+const ProjectDetails = ({ post }) => {
   const classes = useStyles();
   return (
     <div className="card">
@@ -26,7 +28,6 @@ const BlogDetails = ({ post }) => {
               image={post.imageUrl}
               title="Contemplative Reptile"
             />
-           
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
                 {post.title}
@@ -42,4 +43,4 @@ const BlogDetails = ({ post }) => {
   );
 };
 
-export default BlogDetails;
+export default ProjectDetails;

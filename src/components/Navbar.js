@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="navbar ">
       <Link to="/">
         <span className="link" style={{ textAlign: "left" }}>
-          Aman Sharma
+          Aman
         </span>
       </Link>
       <div className="linksalign">
