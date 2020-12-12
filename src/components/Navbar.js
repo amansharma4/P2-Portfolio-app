@@ -3,13 +3,12 @@ import "../App.css";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar ">
       <Link to="/">
         <span className="link" style={{ textAlign: "left" }}>
           Aman Sharma
         </span>
       </Link>
-
       <div className="linksalign">
         <Link to="/projects">
           <span className="link">Projects</span>

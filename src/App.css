@@ -2,7 +2,7 @@
   text-align: center;
 }
 body {
-  background-color: #f1f1f1;
+  background-color: #ddc4f5;
 }
 .App-logo {
   height: 40vmin;
@@ -19,8 +19,9 @@ h4 {
 }
 
 .linksalign {
-  margin-right: 20px;
-  margin-left: auto;
+  color: white;
+  font-family: 'Exo 2',sans-serif ;
+  padding-right: 22px;
 }
 .link {
   margin: 15px;
@@ -58,3 +59,23 @@ h4 {
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #8a2be2;
+  color: white;
+  font-family: 'Exo 2',sans-serif ;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.container{
+  margin-top: 70px;
+}
+

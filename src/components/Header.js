@@ -1,8 +1,7 @@
 import React from "react";
 import { info } from "../data";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import pic from "../img/pic.jpeg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Header() {
   return (
@@ -14,25 +13,17 @@ function Header() {
 
         <h3>Skills</h3>
         <div className="box-container">
-          <img
-            class="imgc"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
-            alt="js"
-          />
-          <FontAwesomeIcon icon={["fab", "github"]} />
+          <FontAwesomeIcon icon={["fab", "js"]} size="5x" className="imgc" />
 
-          <img class="imgc" src="https://reactjs.org/logo-og.png" alt="react" />
+          <FontAwesomeIcon icon={["fab", "react"]} size="5x" className="imgc" />
 
-          <img
-            class="imgc"
-            src="https://miro.medium.com/max/640/1*-ivYkzeuYJedPKdEdfnNlg.png"
-            alt="mongodb"
+          <FontAwesomeIcon
+            icon={["fab", "github"]}
+            size="5x"
+            className="imgc"
           />
-          <img
-            class="imgc"
-            src="https://miro.medium.com/max/2560/1*MuVcoMPyJcq8G4qf5s3HGQ.png"
-            alt="nodejs"
-          />
+
+          <FontAwesomeIcon icon={["fab", "node"]} size="5x" />
         </div>
       </div>
     </div>
