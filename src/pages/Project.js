@@ -7,10 +7,9 @@ function Project() {
       <h2>Project Details</h2>
       <div className="project">
         {allProjects.map((post) => {
-          return <ProjectDetails post={post} />
+          return <ProjectDetails post={post} />;
         })}
       </div>
-
     </div>
   );
 }

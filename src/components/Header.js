@@ -2,8 +2,7 @@ import React from "react";
 import { info } from "../data";
 import pic from "../img/pic.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-function Header() {
+const Header = () => {
   return (
     <div>
       <div className="about">

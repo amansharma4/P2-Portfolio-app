@@ -5,7 +5,6 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
-
 const useStyles = makeStyles({
   root: {
     maxWidth: 350,
@@ -15,7 +14,6 @@ const useStyles = makeStyles({
     height: 300,
   },
 });
-
 const ProjectDetails = ({ post }) => {
   const classes = useStyles();
   return (
@@ -42,5 +40,4 @@ const ProjectDetails = ({ post }) => {
     </div>
   );
 };
-
 export default ProjectDetails;
